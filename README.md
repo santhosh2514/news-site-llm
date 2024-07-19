@@ -14,7 +14,7 @@ Before you begin, ensure you have the following installed:
 
 1. Navigate to the `server` directory from the root of the project:
    ```
-   cd news-site/server
+   cd server
    ```
 2. Install the necessary dependencies with
    ``` 
@@ -35,7 +35,7 @@ Before you begin, ensure you have the following installed:
 
 1. Navigate to the client directory from the root of the project:
    ```
-   cd news-site/client
+   cd client
    ```
 2. Install the necessary dependencies:
    ```
