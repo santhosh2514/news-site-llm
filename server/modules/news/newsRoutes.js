@@ -5,6 +5,6 @@ const newsController = require('./newsController');
 
 module.exports = () => {
     router.route(`/getNewsList`)
-        .post(newsController.getNewsList);
+        .get(newsController.getNewsList);
     return router;
 }

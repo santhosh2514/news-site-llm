@@ -3,7 +3,7 @@
 
 const express = require('express');
 
-const newsRoutes = require('./modules/user/userRoutes');
+const newsRoutes = require('./modules/news/newsRoutes');
 
 const apiRouter = express.Router();
 
