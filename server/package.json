@@ -20,11 +20,6 @@
     "helmet": "^6.0.0",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
-    "jsdom": "^24.1.0",
-    "rss-parser": "^3.13.0",
-    "xml2js": "^0.6.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.22"
+    "jsdom": "^24.1.0"
   }
 }
