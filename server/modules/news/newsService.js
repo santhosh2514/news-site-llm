@@ -47,7 +47,7 @@ const scrapeNews = async (opts) => {
         const article = reader.parse();
         return article?.textContent;
     } catch (error) {
-        console.error("Error scraping the webpage:", error);
+        logger.error({ err: error }, 'Error in scraping webpage');
     }
 }
 
