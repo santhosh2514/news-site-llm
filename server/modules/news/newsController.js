@@ -14,6 +14,23 @@ const getNewsList = async (req, res) => {
   }
 }
 
+const summarizeNews = async (req, res) => {
+  logger.info({ method: 'summarizeNews' }, "Summarizing news");
+  const { url } = req.query;
+  try {
+    const newsSummary = await newsService.summarizeNews({ url });
+    console.log(newsSummary);
+    if (newsSummary?.response?.candidates?.length > 0) {
+      const errorResponse = "Sorry, I couldn't summarize the news article due to safety concerns. Please try some other article.";
+      return res.status(400).json(errorResponse);
+    }
+    res.json(newsSummary)
+  } catch (error) {
+    logger.error({ method: 'summarizeNews', err: error }, "Error in summarizing news");
+  }
+}
+
 module.exports = {
   getNewsList,
+  summarizeNews
 }

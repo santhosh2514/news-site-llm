@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 18px;
+    margin: 0 0 8px;
+}
+
+.source {
+    font-size: 14px;
+    margin: 0 0 4px;
+    color: #d1caca;
+}
+
+.author {
+    font-size: 14px;
+    margin: 0 0 4px;
+    color: #dfd7d7;
+}
+
+.date {
+    font-size: 12px;
+    margin: 0 0 8px;
+    color: #bfbebe;
+}
+
+.link {
+    font-size: 14px;
+    color: #ae2828;
+    text-decoration: none;
+}
+
+.summaryButton {
+    margin-top: 8px;
+    margin-left: 20px;
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: sans-serif;
+    background: linear-gradient(to right,#eaa940, #b0540a);
+}
+
+.expandedContent {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+}

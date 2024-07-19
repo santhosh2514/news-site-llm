@@ -7,7 +7,6 @@ const axiosInstance = axios.create();
 const get = async (url, params = {}, headers = {}) => {
   try {
     const response = await axiosInstance.get(url, { params, headers });
-    console.log(response);
     return response.data;
   } catch (error) {
     logger.error({ err: error }, 'Error in Axios Adapter GET request');
