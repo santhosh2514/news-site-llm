@@ -10,7 +10,7 @@ const apiRoutes = require("./routes");
 module.exports = () => {
   const app = express();
   app.use(cors({
-        origin: 'https://port-data.herokuapp.com'
+        origin: ''
       }));
   app.set('views', path.join(__dirname, 'views'));
   app.set('view engine', 'jade');

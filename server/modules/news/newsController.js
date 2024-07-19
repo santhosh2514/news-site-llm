@@ -7,7 +7,7 @@ const getNewsList = async (req, res) => {
   try {
 
   } catch (error) {
-    logger.error({ method: 'CreateUserData', err: error }, "Error in creating user data");
+    logger.error({ method: 'getNewsList', err: error }, "Error in getting news list");
   }
 }
 
