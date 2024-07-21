@@ -7,14 +7,14 @@ This guide will help you set up and start both the client and server for the New
 Before you begin, ensure you have the following installed:
 - Node.js (preferably the latest stable version)
 - npm (comes with Node.js)
-- Get a newsapi key from https://newsapi.org/account
-- Get a gemini api key from https://aistudio.google.com/app/apikey
+- Get a free newsapi key from https://newsapi.org/account
+- Get a free gemini api key from https://aistudio.google.com/app/apikey
 
 ## Setting Up the Server
 
 1. Navigate to the `server` directory from the root of the project:
    ```
-   cd news-site/server
+   cd server
    ```
 2. Install the necessary dependencies with
    ``` 
@@ -35,7 +35,7 @@ Before you begin, ensure you have the following installed:
 
 1. Navigate to the client directory from the root of the project:
    ```
-   cd news-site/client
+   cd client
    ```
 2. Install the necessary dependencies:
    ```
