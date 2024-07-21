@@ -1,5 +1,5 @@
 const axios = require('axios');
-const logger = require('bunyan'); // Adjust the path as necessary
+const logger = require('bunyan');
 
 const axiosInstance = axios.create();
 
@@ -10,7 +10,7 @@ const get = async (url, params = {}, headers = {}) => {
     return response.data;
   } catch (error) {
     logger.error({ err: error }, 'Error in Axios Adapter GET request');
-    throw error; // Rethrowing the error to be handled by the caller
+    throw error;
   }
 };
 
